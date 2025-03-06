@@ -1,0 +1,166 @@
+body {
+    background-color: #D84040;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-image: url('fondo.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+header {
+    background-color: #A31D1D;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.menuu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+nav ul li {
+    margin: 0.5rem 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+footer{
+    background-color: #ECDCBF
+}
+
+.bold{
+    text-decoration-color: #8B0000;
+}
+
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display:flex;
+    flex-direction:row ;
+    height:20vh;
+    width: 20vh
+
+}
+
+.hero {
+    color: white;
+    padding: 10vh 1rem;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.productos {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.productos h2 {
+    font-size: 2rem;
+}
+
+.producto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.producto-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+.producto-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto-item h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0;
+}
+
+.nosotros, .contacto {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.nosotros h2, .contacto h2 {
+    font-size: 2rem;
+}
+
+.nosotros p {
+    font-size: 1.2rem;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto form input, .contacto form textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 90%;
+    max-width: 400px;
+    font-size: 1rem;
+}
+
+.contacto form button {
+    padding: 0.5rem 1rem;
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
